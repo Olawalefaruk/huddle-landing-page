@@ -1,0 +1,175 @@
+body,
+h1,
+h2,
+p,
+button,
+.background,
+.huddle-div,
+.huddle-logo,
+.middle-div,
+.mockup-div,
+.social-media,
+.text-div {
+  margin: 0;
+  font-family: arial;
+}
+
+
+
+.background {
+  background: url(./bg-desktop.svg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(104, 25, 157);
+
+}
+
+.huddle-div {
+  display: flex;
+  margin: 20px 0px 50px 230px;
+}
+
+.huddle-logo {
+  height: 40px;
+  
+}
+
+.middle-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
+.mockup-div {
+content: url(./illustration-mockups.svg);
+width: 400px;
+height: 300px;
+margin-left: 0;
+margin-right: 40px;
+display: flex;
+}
+
+.text-div {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  max-width: 250px;
+  line-height: 30px;
+}
+
+p {
+  color: rgb(200, 196, 196);
+  font-size: 10px;
+  max-width: 270px;
+  line-height: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+button {
+  height: 25px;
+  width: 105px;
+  border-radius: 50px;
+  border: none;
+  font-size: 12px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  color: white;
+  background-color: rgb(248, 54, 248);
+}
+
+
+
+@media (orientation: portrait) {
+  .background {
+    background: url(./bg-desktop.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(104, 25, 157);
+  
+  }
+  
+  .huddle-div {
+    display: flex;
+    align-items: justify;
+    justify-content: justify;
+    margin-left: 75px;
+  }
+  
+  .huddle-logo {
+    height: 20px;
+    margin: 0px 0px 0px 0px;
+    
+  }
+  
+  .middle-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  
+  }
+  
+  .mockup-div {
+  content: url(./illustration-mockups.svg);
+  width: 180px;
+  height: 140px;
+  margin-left: 0;
+  margin-right: 0px;
+  margin-bottom: 30px;
+  margin: 30px 0;
+  display: flex;
+  }
+  
+  .text-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 17px;
+    max-width: 180px;
+    line-height: 30px;
+  }
+  
+  p {
+    color: rgb(200, 196, 196);
+    font-size: 10px;
+    max-width: 180px;
+    line-height: 15px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+  
+  button {
+    height: 25px;
+    width: 105px;
+    border-radius: 50px;
+    border: none;
+    font-size: 12px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 35px;
+  }
+}
