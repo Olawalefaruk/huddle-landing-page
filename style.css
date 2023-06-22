@@ -29,7 +29,7 @@ button,
 
 .huddle-div {
   display: flex;
-  margin: 20px 0px 50px 230px;
+  margin: 20px 0px 50px 115px;
 }
 
 .huddle-logo {
@@ -41,8 +41,6 @@ button,
   display: flex;
   align-items: center;
   justify-content: center;
-  
-
 }
 
 .mockup-div {
@@ -112,7 +110,7 @@ button:active {
     display: flex;
     align-items: justify;
     justify-content: justify;
-    margin-left: 75px;
+    margin-left: px;
   }
   
   .huddle-logo {
